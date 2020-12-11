@@ -1,29 +1,40 @@
 import db from '../dbConfig.js';
 import Sequelize from 'sequelize';
 
-const Feedback = db.define("Feedback", {
-    FeedbackId: {
+const Activitate=db.define("Activitate",{
+    ActivitateId:{
         type: Sequelize.INTEGER,
         primaryKey: true,
         autoIncrement: true,
         allowNull: false
     },
-    Mesaj: {
+    Denumire:{
         type: Sequelize.STRING,
         allowNull: false
     },
-    Recenzie: {
+    Descriere:{
         type: Sequelize.STRING,
         allowNull: false
     },
-    DataFeedback: {
+    DataActivitate:{
         type: Sequelize.DATE, 
         allowNull: false
     },
-    UserId: {
-        type: Sequelize.STRING,
+    Durata:{
+        type: Sequelize.INTEGER,
         allowNull: false
+    },
+    Cod:{
+        type:Sequelize.STRING,
+        allowNull:false,
+        unique:true
+    },
+    UserId:{
+        type:Sequelize.INTEGER,
+        allowNull:false
     }
+    
+
 
 })
-export default Feedback;
+export default Activitate;
