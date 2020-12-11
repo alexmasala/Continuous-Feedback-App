@@ -1,7 +1,7 @@
 ## Documentatie - aici urmeaza sa fie scrisa documentatia
 Proiect la disciplina Tehnologii Web
 
- * Mihaila Anamaria-Catalina
- * Mireag Madalina-Andreea
- * Masala Alexandra
+ * Mihăilă Anamaria-Cătălina
+ * Mireag Mădălina-Andreea
+ * Mașala Alexandra
  * Alexandru Andra-Ioana
