@@ -1,6 +1,4 @@
-## Documentatie - aici urmeaza sa fie scrisa documentatia
-
-Proiect la disciplina Tehnologii Web
+## Collaborative Project using Web Technologies
 
  * Mihăilă Anamaria-Cătălina
  * Mireag Mădălina-Andreea
